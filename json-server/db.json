@@ -1,0 +1,16 @@
+{
+  "superhero": [
+    {
+      "id": 1,
+      "name": "Spiderman",
+      "fName": "Peter",
+      "lName": "Parker",
+      "age": 20,
+      "powers": [
+        "wall-crawling",
+        "web-slinging"
+      ],
+      "killer": false
+    }
+  ]
+}
