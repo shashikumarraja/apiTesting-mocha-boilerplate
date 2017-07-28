@@ -14,7 +14,7 @@ let idOfFirstSuperhero = '1';
 
 describe('Superhero Api Suite', function () {
     describe('GET Request', function () {
-        it('Get Superhero', async function () {
+        it('Should Get Superhero', async function () {
             let res = await apiHelper.sendGETRequest(baseUrl, apiEndPoint + idOfFirstSuperhero);
             console.log(res.body);
             res.status.should.equal(200);
@@ -30,7 +30,7 @@ describe('Superhero Api Suite', function () {
         let killer = testData.killerFalse;
         let idOfCreatedSuperhero;
 
-        it('Create Superhero', async function () {
+        it('Should Create Superhero', async function () {
             let requestBody = getRequestBody(name, fName, lName, age, powers, killer)
             let res = await apiHelper.sendPOSTRequest(baseUrl, apiEndPoint, requestBody);
             console.log(res.body);
@@ -68,7 +68,7 @@ describe('Superhero Api Suite', function () {
         });
 
         //Modify the created superhero details
-        it('Update Superhero', async function () {
+        it('Should Update Superhero', async function () {
             let requestBody = getRequestBody(name, fName, lName, age, powers, killerNew)
             let res = await apiHelper.sendPUTRequest(baseUrl, apiEndPoint + idOfCreatedSuperhero, requestBody);
             console.log(res.body);
@@ -106,7 +106,7 @@ describe('Superhero Api Suite', function () {
         });
 
         //Delete the created superhero
-        it('Delete Superhero', async function () {
+        it('Should Delete Superhero', async function () {
             let res = await apiHelper.sendDELETERequest(baseUrl, apiEndPoint + idOfCreatedSuperhero);
             console.log(res.body);
             res.status.should.equal(200);
