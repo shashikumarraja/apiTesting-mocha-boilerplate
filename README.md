@@ -9,21 +9,22 @@ a. Clone or download the project directory
 
 b. Traverse to the downloaded/clonned project directory and install dependencies and run json-server:
 
+  ``` 
    cd apiTestingWithMochaBoilerPlate
 
    npm install
 
-   cd json-server
-
    npm install -g json-server
 
-   json-server --watch db.json
+   npm run fakeApi
+   ```
 
-c. Now in separate tab of the terminal:
-
+c. Now in separate tab of the terminal run following commands:
+   ```
    cd apiTestingWithMochaBoilerPlate
 
-   npm test
+   npm test 
+   ```
 
 d. Once the tests are run, check the report inside mochawesome-report folder in project directory
 
@@ -35,4 +36,4 @@ a. Use of json-server is done to create fake apis. Inside folder json-sever ther
 b.Test cases are written using mocha.js, should.js, supertest.js to perform GET, PUT, POST and DELETE requests on the fake apis. With every modification request, db.json gets updated. 
 
 # Known Issue
-a. Running the entire suite gives ECONRESET error randomly. This is not an issue with the test code but the PORT getting overwhelmed with the requests.
+a. Running the entire suite gives ECONNREFUSED error randomly. This is not an issue with the test code but the PORT getting overwhelmed with the requests.

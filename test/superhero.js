@@ -1,4 +1,4 @@
-//Constains the test-cases 
+//Contains the test-cases 
 
 const mocha = require('mocha');
 const should = require('should');

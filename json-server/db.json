@@ -11,6 +11,126 @@
         "web-slinging"
       ],
       "killer": false
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": false,
+      "id": 2
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": true,
+      "id": 3
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": false,
+      "id": 4
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": true,
+      "id": 5
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": false,
+      "id": 6
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": true,
+      "id": 7
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": false,
+      "id": 8
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": true,
+      "id": 9
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": false,
+      "id": 10
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": true,
+      "id": 11
     }
   ]
 }

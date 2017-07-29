@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha 'test/*.js'  --timeout 100000 --reporter mochawesome"
+    "test": "mocha 'test/*.js'  --timeout 100000 --reporter mochawesome",
+    "fakeApi": "json-server --watch 'json-server/db.json'"
   },
   "author": "",
   "license": "ISC",
