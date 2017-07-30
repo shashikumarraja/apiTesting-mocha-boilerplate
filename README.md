@@ -1,4 +1,4 @@
-# apiTestingWithMochaBoilerPlate
+# API Testing With Mocha Boiler Plate
 Boiler Plate for getting started with Api Testing (uses fake apis created using json-server)with Mocha as test runner,should.js as assertion library, supertest.js to make HTTP requests and mochawesome as Reporter.
 # How to run the Project
 OS Requirement: Linux or Mac OS
@@ -13,8 +13,6 @@ b. Traverse to the downloaded/clonned project directory and install dependencies
    cd apiTestingWithMochaBoilerPlate
 
    npm install
-
-   npm install -g json-server
 
    npm run fakeApi
    ```
