@@ -131,6 +131,102 @@
       ],
       "killer": true,
       "id": 11
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": false,
+      "id": 12
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": true,
+      "id": 13
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": false,
+      "id": 14
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": true,
+      "id": 15
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": false,
+      "id": 16
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": true,
+      "id": 17
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": false,
+      "id": 18
+    },
+    {
+      "name": "Superman",
+      "fName": "Clark",
+      "lName": "Kent",
+      "age": 30,
+      "powers": [
+        "Flying",
+        "superhuman-strength"
+      ],
+      "killer": true,
+      "id": 19
     }
   ]
 }

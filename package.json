@@ -7,9 +7,10 @@
     "test": "mocha 'test/*.js'  --timeout 100000 --reporter mochawesome",
     "fakeApi": "json-server --watch 'json-server/db.json'"
   },
-  "author": "",
+  "author": "Shashi Kumar Raja",
   "license": "ISC",
   "dependencies": {
+    "json-server": "^0.11.2",
     "mocha": "^3.4.2",
     "mochawesome": "^2.3.0",
     "should": "^11.2.1",
