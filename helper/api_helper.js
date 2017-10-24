@@ -1,7 +1,7 @@
 const supertest = require('supertest');
 
 
-exports.sendGETRequest = async function (baseUrl, apiEndPoint) {
+exports.sendGETRequest = async (baseUrl, apiEndPoint) => {
     try {
         let res = await supertest(baseUrl).get(apiEndPoint).retry(2)
             .set('Accept', 'application/json')
@@ -11,7 +11,7 @@ exports.sendGETRequest = async function (baseUrl, apiEndPoint) {
         console.log('Error in sending GET Request: ', err);
     }
 };
-exports.sendPOSTRequest = async function (baseUrl, apiEndPoint, requestBody) {
+exports.sendPOSTRequest = async (baseUrl, apiEndPoint, requestBody) => {
     try {
         let res = await supertest(baseUrl).post(apiEndPoint).retry(2)
             .set('Accept', 'application/json')
@@ -22,7 +22,7 @@ exports.sendPOSTRequest = async function (baseUrl, apiEndPoint, requestBody) {
         console.log('Error in sending POST Request: ', err);
     }
 };
-exports.sendPUTRequest = async function (baseUrl, apiEndPoint, requestBody) {
+exports.sendPUTRequest = async (baseUrl, apiEndPoint, requestBody) => {
     try {
         let res = await supertest(baseUrl).put(apiEndPoint).retry(2)
             .set('Accept', 'application/json')
@@ -33,7 +33,7 @@ exports.sendPUTRequest = async function (baseUrl, apiEndPoint, requestBody) {
         console.log('Error in sending PUT Request: ', err);
     }
 };
-exports.sendDELETERequest = async function (baseUrl, apiEndPoint) {
+exports.sendDELETERequest = async (baseUrl, apiEndPoint) => {
     try {
         let res = await supertest(baseUrl).delete(apiEndPoint).retry(2)
             .set('Accept', 'application/json')
